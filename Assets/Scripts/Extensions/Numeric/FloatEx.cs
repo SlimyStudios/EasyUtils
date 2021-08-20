@@ -35,6 +35,12 @@ public static class FloatEx
     /// </summary>
     public static bool IsEven(this float number) 
         => number % 2 == 0;
+    
+    /// <summary>
+    /// True if float is odd.
+    /// </summary>
+    public static bool IsOdd(this float number) 
+        => number % 2 != 0;
         
     /// <summary>
     /// True if float is equal to other based on certain tolerance.
